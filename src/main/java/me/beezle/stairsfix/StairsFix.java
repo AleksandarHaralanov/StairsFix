@@ -1,18 +1,18 @@
-package me.beezle.stairfix;
+package me.beezle.stairsfix;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class StairFix extends JavaPlugin
+public class StairsFix extends JavaPlugin
 {
     public void onEnable()
     {
         Bukkit.getServer().getPluginManager().registerEvents(new BlockHandler(), this);
-        System.out.print("[StairFix] Enabled.");
+        System.out.print("[StairsFix] Enabled.");
     }
 
     public void onDisable()
     {
-        System.out.print("[StairFix] Disabled.");
+        System.out.print("[StairsFix] Disabled.");
     }
 }

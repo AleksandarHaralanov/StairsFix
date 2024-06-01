@@ -1,4 +1,4 @@
-name: StairFix
+name: StairsFix
 version: 1.0
 authors: [Beezle, moderator_man]
-main: me.beezle.stairfix.StairFix
+main: me.beezle.stairsfix.StairsFix

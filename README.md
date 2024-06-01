@@ -1,4 +1,4 @@
-# StairFix
+# StairsFix
 Fixes breaking stairs not returning the stair block.
 
 # Credits

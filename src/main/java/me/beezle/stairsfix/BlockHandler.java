@@ -1,4 +1,4 @@
-package me.beezle.stairfix;
+package me.beezle.stairsfix;
 
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class BlockHandler implements Listener {
     @EventHandler
-    public void onStairDestroy(final BlockBreakEvent event)
+    public void onStairsBreak(final BlockBreakEvent event)
     {
         switch (event.getBlock().getType())
         {
@@ -34,7 +34,10 @@ public class BlockHandler implements Listener {
     {
         for (Material mat : materials)
         {
-            if (itemStack.getType() == mat) return true;
+            if (itemStack.getType() == mat)
+            {
+                return true;
+            }
         }
         return false;
     }
