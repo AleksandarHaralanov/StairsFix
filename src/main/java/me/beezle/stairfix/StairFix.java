@@ -8,11 +8,11 @@ public class StairFix extends JavaPlugin
     public void onEnable()
     {
         Bukkit.getServer().getPluginManager().registerEvents(new BlockHandler(), this);
-        System.out.println("[StairFix] Enabled.");
+        System.out.print("[StairFix] Enabled.");
     }
 
     public void onDisable()
     {
-        System.out.println("[StairFix] Disabled.");
+        System.out.print("[StairFix] Disabled.");
     }
 }
