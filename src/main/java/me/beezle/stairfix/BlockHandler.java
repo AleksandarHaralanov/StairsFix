@@ -7,15 +7,6 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class BlockHandler implements Listener {
-    public boolean isType(ItemStack itemStack, Material... materials)
-    {
-        for (Material mat : materials)
-        {
-            if (itemStack.getType() == mat) return true;
-        }
-        return false;
-    }
-
     @EventHandler
     public void onStairDestroy(final BlockBreakEvent event)
     {
@@ -37,5 +28,14 @@ public class BlockHandler implements Listener {
             default:
                 break;
         }
+    }
+
+    public boolean isType(ItemStack itemStack, Material... materials)
+    {
+        for (Material mat : materials)
+        {
+            if (itemStack.getType() == mat) return true;
+        }
+        return false;
     }
 }
