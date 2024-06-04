@@ -7,6 +7,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
 
 public class BlockHandler implements Listener {
+
     @EventHandler
     public void onStairsBreak(final BlockBreakEvent event) {
         switch (event.getBlock().getType()) {
