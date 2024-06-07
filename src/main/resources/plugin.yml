@@ -1,4 +1,5 @@
-name: StairsFix
-version: 1.0
-authors: [Beezle, moderator_man]
 main: me.beezle.stairsfix.StairsFix
+version: 1.0
+name: StairsFix
+authors: [Beezle, moderator_man]
+description: Fixes breaking stairs not returning the stairs block.
