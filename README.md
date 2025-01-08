@@ -3,9 +3,7 @@
 **StairFix** is a Minecraft plugin designed for servers running version b1.7.3. It fixes breaking stairs not returning the stairs block.
 
 > [!CAUTION]
-> If your server runs Residence, Towny, or JVillage, it won't handle it well and might result in people being able to break stairs within protected areas.
->
-> WorldGuard however works fine since the plugin implements a check for that.
+> If your server uses Residence, Towny, JVillage, or similar plugins, the plugin likely won't handle this properly, resulting in players able to break stairs within protected areas. However, WorldGuard works correctly, as the plugin includes a specific check for this scenario.
 
 ---
 ### Download
