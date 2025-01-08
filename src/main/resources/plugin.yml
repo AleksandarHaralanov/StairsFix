@@ -3,4 +3,4 @@ version: 1.1.0
 name: StairFix
 author: Beezle
 website: github.com/AleksandarHaralanov/StairFix
-description: INSERT_DESCRIPTION
+description: Makes broken stairs drop the stair block back instead of a plank or cobble.

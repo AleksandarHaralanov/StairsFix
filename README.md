@@ -1,6 +1,6 @@
 # StairFix
 ## What's StairFix?
-**StairFix** is a Minecraft plugin designed for servers running version b1.7.3. It fixes breaking stairs not returning the stairs block.
+**StairFix** is a Minecraft plugin designed for servers running version b1.7.3. It makes broken stairs drop the stair block back instead of a plank or cobble.
 
 > [!WARNING]
 > If your server uses Residence, Towny, JVillage, or similar plugins, the plugin likely won't handle this properly, resulting in players able to break stairs within protected areas. However, WorldGuard works correctly, as the plugin includes a specific check for this scenario.
