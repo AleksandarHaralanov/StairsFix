@@ -28,6 +28,8 @@ public class BlockBreakListener extends BlockListener {
         if (worldGuard != null && worldGuard.isEnabled())
             if (!worldGuard.canBuild(player, block.getLocation())) return;
 
+        // TODO: Add checks for Residence, Towny, JVillage
+
         event.setCancelled(true);
         Material correctDrop = block.getType() == Material.WOOD_STAIRS ? Material.WOOD_STAIRS : Material.COBBLESTONE_STAIRS;
         block.setType(Material.AIR);
